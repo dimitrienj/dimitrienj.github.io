@@ -1,0 +1,24 @@
+p {
+    text-align: justify;
+}
+
+section {
+    padding-top: 50px;
+}
+
+    section header {
+        padding-bottom: 30px;
+    }
+
+    section p {
+        padding-bottom: 20px;
+    }
+
+.aboutme {
+    padding-bottom: 320px;
+}
+
+.tete {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
