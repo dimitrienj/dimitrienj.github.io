@@ -1,24 +1,118 @@
-p {
+@font-face 
+{
+    font-family: 'cmubright';
+    src: url('cmubright/cmubmo-webfont.eot');
+    src: url('cmubright/cmubmo-webfont.eot#iefix') format('embedded-opentype');
+    src: url('cmubright/cmubmo-webfont.svg') format('svg');
+    src: url('cmubright/cmubmo-webfont.ttf') format('true-type');
+    src: url('cmubright/cmubmo-webfont.woff') format('woff');
+}
+
+p 
+{
+    font-family: cmubright, Arial, serif;
     text-align: justify;
 }
 
-section {
+section 
+{
     padding-top: 50px;
 }
 
-    section header {
-        padding-bottom: 30px;
-    }
+aside 
+{
+    background-color: #03A9F4;
+}
 
-    section p {
-        padding-bottom: 20px;
-    }
+aside h1 
+{
+    font-size: 1.5em;
+    background-color: #263238;
+    color: #03A9F4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-.aboutme {
+aside i 
+{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    padding: 8px;
+}
+
+article h1 
+{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #455A64;
+}
+
+article h2 
+{
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+section header 
+{
+    font-size: 1.4em;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid #03A9F4;
+}
+
+section div.row 
+{
+    padding-top: 30px;
+}
+
+section p 
+{
+    padding-bottom: 20px;
+}
+
+section i 
+{
+    padding-right: 15px;
+}
+
+.aboutme 
+{
     padding-bottom: 320px;
 }
 
-.tete {
+.tete 
+{
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.tete h1 
+{
+    font-size: 3.5em;
+}
+
+.tete h2 
+{
+    font-size: 1.2em;
+}
+
+.tete h2 span 
+{
+     text-decoration: none;
+     padding: 0 0 1px 0;
+     border-bottom: 2px solid #03A9F4;
+}
+
+.prenom 
+{
+    color: #03A9F4;
+    font-weight: 600;
+}
+
+.nom 
+{
+    font-weight: 300;
 }
