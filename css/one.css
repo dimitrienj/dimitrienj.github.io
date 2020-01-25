@@ -1,11 +1,11 @@
 @font-face 
 {
     font-family: 'cmubright';
-    src: url('cmubright/cmubmo-webfont.eot');
-    src: url('cmubright/cmubmo-webfont.eot#iefix') format('embedded-opentype');
-    src: url('cmubright/cmubmo-webfont.svg') format('svg');
-    src: url('cmubright/cmubmo-webfont.ttf') format('true-type');
-    src: url('cmubright/cmubmo-webfont.woff') format('woff');
+    src: url('police/cmubright/cmunbmo-webfont.eot');
+    src: url('police/cmubright/cmunbmo-webfont.eot#iefix') format('embedded-opentype');
+    src: url('police/cmubright/cmunbmo-webfont.svg') format('svg');
+    src: url('police/cmubright/cmunbmo-webfont.ttf') format('true-type');
+    src: url('police/cmubright/cmunbmo-webfont.woff') format('woff');
 }
 
 p 
@@ -33,11 +33,14 @@ aside h1
     padding-bottom: 5px;
 }
 
+.cinfo 
+{
+    padding-bottom: 40px;
+}
+
 aside i 
 {
-    position: relative;
-    top: 20px;
-    left: 50px;
+    padding-top: 10px;
     padding: 8px;
 }
 
@@ -80,7 +83,7 @@ section i
 
 .aboutme 
 {
-    padding-bottom: 320px;
+    padding-bottom: 450px;
 }
 
 .tete 
@@ -101,9 +104,9 @@ section i
 
 .tete h2 span 
 {
-     text-decoration: none;
-     padding: 0 0 1px 0;
-     border-bottom: 2px solid #03A9F4;
+    text-decoration: none;
+    padding: 0 0 1px 0;
+    border-bottom: 2px solid #03A9F4;
 }
 
 .prenom 
@@ -121,4 +124,106 @@ a
 {
     text-decoration: none;
     color: black;
+}
+
+img 
+{
+    overflow: hidden;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    width: 175px;
+    height: 175px;
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 10px #555;
+}
+
+@media (max-width: 980px) 
+{
+    .row 
+    {
+        display: flex;
+        flex-flow: column;
+        width: auto;
+    }
+
+    img 
+    {
+        margin-bottom: 200px;
+    }
+
+    .tete 
+    {
+        position: absolute;
+        top: -1550px;
+    }
+
+    .prenom 
+    {
+        color: black;
+        font-weight: 600;
+    }
+
+    .tete h2 span 
+    {
+        text-decoration: none;
+        padding: 0 0 1px 0;
+        border-bottom: 2px solid black;
+    }
+
+    .tete h1 
+    {
+        font-size: 3em;
+    }
+
+    .tete h2 
+    {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 400px) 
+{
+    .row 
+    {
+        display: flex;
+        flex-flow: column;
+        width: auto;
+    }
+
+    img 
+    {
+        margin-bottom: 200px;
+    }
+
+    .tete 
+    {
+        position: absolute;
+        top: -1600px;
+    }
+
+    .prenom 
+    {
+        color: black;
+        font-weight: 600;
+    }
+
+    .tete h2 span 
+    {
+        text-decoration: none;
+        padding: 0 0 1px 0;
+        border-bottom: 2px solid black;
+    }
+
+    .tete h1 
+    {
+        font-size: 2.5em;
+    }
+
+    .tete h2 
+    {
+        font-size: 1.2em;
+    }
 }
