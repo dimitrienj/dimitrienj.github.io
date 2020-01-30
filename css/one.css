@@ -6,8 +6,7 @@ body {
     margin-bottom: 20px;
 }
 
-@font-face 
-{
+@font-face {
     font-family: 'cmubright';
     src: url('police/cmubright/cmunbmo-webfont.eot');
     src: url('police/cmubright/cmunbmo-webfont.eot#iefix') format('embedded-opentype');
@@ -16,57 +15,48 @@ body {
     src: url('police/cmubright/cmunbmo-webfont.woff') format('woff');
 }
 
-p 
-{
+p {
     font-family: cmubright, Arial, serif;
     text-align: justify;
 }
 
-section 
-{
+section {
     padding-top: 50px;
 }
 
-aside 
-{
+aside {
     background-color: #03A9F4;
 }
 
-aside h1 
-{
-    font-size: 1.5em;
-    background-color: #263238;
-    color: #03A9F4;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+    aside h1 {
+        font-size: 1.5em;
+        background-color: #263238;
+        color: #03A9F4;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 
-.cinfo 
-{
+.cinfo {
     padding-bottom: 40px;
 }
 
-aside i 
-{
+aside i {
     padding-top: 10px;
     padding: 8px;
 }
 
-article h1 
-{
+article h1 {
     font-size: 1.4em;
     font-weight: 600;
     color: #455A64;
 }
 
-article h2 
-{
+article h2 {
     font-size: 0.9em;
     font-weight: normal;
 }
 
-section header 
-{
+section header {
     font-size: 1.4em;
     font-weight: 600;
     text-decoration: none;
@@ -74,68 +64,56 @@ section header
     border-bottom: 2px solid #03A9F4;
 }
 
-section div.row 
-{
+section div.row {
     padding-top: 30px;
 }
 
-section p 
-{
+section p {
     padding-bottom: 20px;
 }
 
-section i 
-{
+section i {
     padding-right: 15px;
 }
 
-.aboutme 
-{
-    padding-bottom: 550px;
+.aboutme {
+    padding-bottom: 450px;
 }
 
-.tete 
-{
+.tete {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.tete h1 
-{
-    font-size: 3.5em;
-}
+    .tete h1 {
+        font-size: 3.5em;
+    }
 
-.tete h2 
-{
-    font-size: 1.2em;
-}
+    .tete h2 {
+        font-size: 1.2em;
+    }
 
-.tete h2 span 
-{
-    text-decoration: none;
-    padding: 0 0 1px 0;
-    border-bottom: 2px solid #03A9F4;
-}
+        .tete h2 span {
+            text-decoration: none;
+            padding: 0 0 1px 0;
+            border-bottom: 2px solid #03A9F4;
+        }
 
-.prenom 
-{
+.prenom {
     color: #03A9F4;
     font-weight: 600;
 }
 
-.nom 
-{
+.nom {
     font-weight: 300;
 }
 
-a 
-{
+a {
     text-decoration: none;
     color: black;
 }
 
-img 
-{
+img {
     overflow: hidden;
     -webkit-border-radius: 90px;
     -moz-border-radius: 90px;
@@ -151,6 +129,14 @@ img
 div .ig {
     width: 100%;
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 980px) {
     body {
@@ -192,7 +178,7 @@ div .ig {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     body {
         margin: 0;
     }
@@ -298,12 +284,5 @@ div .ig {
     body {
         width: 210mm;
         height: 297mm;
-    }
-}
-
-@media (max-width: 1040px) and (min-width: 768px) {
-    p .send {
-        width: 150px;
-        word-wrap: break-word;
     }
 }
