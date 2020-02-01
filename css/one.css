@@ -24,16 +24,20 @@ section {
     padding-top: 50px;
 }
 
+header .row
+{
+    background-color: #03A9F4;
+}
+
 aside {
     background-color: #03A9F4;
 }
 
-    aside h1 {
+    aside header {
         font-size: 1.5em;
         background-color: #263238;
         color: #03A9F4;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 1px 0 1px 0;
     }
 
 .cinfo {
@@ -45,13 +49,13 @@ aside i {
     padding: 8px;
 }
 
-article h1 {
+div h1 {
     font-size: 1.4em;
     font-weight: 600;
     color: #455A64;
 }
 
-article h2 {
+div h2 {
     font-size: 0.9em;
     font-weight: normal;
 }
@@ -83,6 +87,7 @@ section i {
 .tete {
     padding-top: 100px;
     padding-bottom: 50px;
+    padding-left: 100px;
 }
 
     .tete h1 {
@@ -91,6 +96,7 @@ section i {
 
     .tete h2 {
         font-size: 1.2em;
+        font-weight: 600;
     }
 
         .tete h2 span {
@@ -128,6 +134,7 @@ img {
 
 div .ig {
     width: 100%;
+    background-color: #03A9F4;
 }
 
 
@@ -135,10 +142,7 @@ div .ig {
 
 
 
-
-
-
-@media (max-width: 980px) {
+@media (max-width: 768px) {
     body {
         margin: 0;
     }
@@ -149,53 +153,11 @@ div .ig {
         width: auto;
     }
 
-    img {
-        margin-bottom: 200px;
-    }
-
-    .tete {
-        position: absolute;
-        top: -1550px;
-    }
-
-    .prenom {
-        color: black;
-        font-weight: 600;
-    }
-
-    .tete h2 span {
-        text-decoration: none;
-        padding: 0 0 1px 0;
-        border-bottom: 2px solid black;
-    }
-
-    .tete h1 {
-        font-size: 3em;
-    }
-
-    .tete h2 {
-        font-size: 1.2em;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        margin: 0;
-    }
-
-    .row {
-        display: flex;
-        flex-flow: column;
-        width: auto;
-    }
-
-    img {
-        margin-bottom: 200px;
-    }
-
-    .tete {
-        position: absolute;
-        top: -1600px;
+    .tete 
+    {
+        background-color: #03A9F4;
+        padding: 0 0 25px 0;
+        text-align: center;
     }
 
     .prenom {
@@ -216,30 +178,38 @@ div .ig {
     .tete h2 {
         font-size: 1.2em;
     }
+
+    .aboutme
+    {
+        padding: 0;
+    }
 }
 
-@media (max-width: 980px) and (min-width: 768px) {
-    aside {
+@media (max-width: 1450px) and (min-width: 768px) {
+    
+    body
+    {
+        margin: 0;
+    }
+    
+    aside 
+    {
         display: flex;
         flex-direction: column;
         padding-right: 250px;
     }
 
-    .tete {
-        position: absolute;
-        top: -2250px;
-        left: 350px;
-    }
-
-        .tete h1 {
+        .tete h1 
+        {
             font-size: 3em;
         }
 
-        .tete h2 {
-            font-size: 1.1em;
+        .tete h2 
+        {
         }
 
-            .tete h2 span {
+            .tete h2 span 
+            {
                 text-decoration: none;
                 padding: 0 0 1px 0;
                 border-bottom: 2px solid #03A9F4;
@@ -252,26 +222,6 @@ div .ig {
 
     .nom {
         font-weight: 300;
-    }
-
-    section {
-        position: absolute;
-        top: -2000px;
-        left: 250px;
-    }
-}
-
-@media (max-width: 767px) and (min-width: 480px) {
-    .tete {
-        position: absolute;
-        top: -1450px;
-        left: 150px;
-    }
-}
-
-@media (max-width: 1200px) {
-    body {
-        margin: 0;
     }
 }
 
