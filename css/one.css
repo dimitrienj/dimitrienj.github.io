@@ -74,12 +74,12 @@ section div header {
     color: #455A64;
 }
 
-section div h1 {
+section div h2 {
     font-size: 0.9em;
     font-weight: normal;
 }
 
-section header.top {
+section h1.top {
     font-size: 1.4em;
     font-weight: 600;
     text-decoration: none;
