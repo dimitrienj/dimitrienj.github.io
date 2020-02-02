@@ -21,20 +21,20 @@ p {
 
 ul p
 {
-    padding-left: 5px;
+    padding-left: 7px;
 }
 
 ul {
-    margin: 0;
+    margin-left: 15px;
     padding: 0;
 }
 
-ul li .uno
+li p
 {
-     list-style-type: georgian;
+    color: black;
 }
 
-li 
+li
 {
     color: #03A9F4
 }
@@ -68,18 +68,18 @@ aside i {
     padding: 8px;
 }
 
-div h1 {
+section div header {
     font-size: 1.4em;
     font-weight: 600;
     color: #455A64;
 }
 
-div h2 {
+section div h1 {
     font-size: 0.9em;
     font-weight: normal;
 }
 
-section header {
+section header.top {
     font-size: 1.4em;
     font-weight: 600;
     text-decoration: none;
